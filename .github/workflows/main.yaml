@@ -22,7 +22,7 @@ jobs:
 
       - name: Upload artifact
         id: upload-artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: my-artifact
           path: artifact.txt
@@ -36,7 +36,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Download artifact from job1
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: my-artifact  # Das Artefakt, das in Job1 hochgeladen wurde
 
