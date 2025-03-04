@@ -42,6 +42,6 @@ jobs:
 
       - name: Use the downloaded artifact
         run: |
-          cat my-artifact/artifact.txt
+          cat artifact.txt
           # Das heruntergeladene Artefakt wird verwendet
           # In diesem Fall wird es mit 'cat' angezeigt
